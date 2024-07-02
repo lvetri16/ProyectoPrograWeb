@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seat Picker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    <div class="row">
+      <div class="col-lg-6 text-center background1">
+        <div class="line"></div>
+        <table class="egt text-center table table-hover">
+          <tbody>
+            <!-- Fila 1 -->
+            <tr>
+              <td class="celdita" id="1" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-1" />
+                  <div class="seat-number">1</div>
+                </div>
+              </td>
+              <td class="celdita" id="2" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-2" />
+                  <div class="seat-number">2</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="3" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-3" />
+                  <div class="seat-number">3</div>
+                </div>
+              </td>
+              <td class="celdita" id="4" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-4" />
+                  <div class="seat-number">4</div>
+                </div>
+              </td>
+              <td class="celdita" id="5" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-5" />
+                  <div class="seat-number">5</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="6" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-6" />
+                  <div class="seat-number">6</div>
+                </div>
+              </td>
+              <td class="celdita" id="7" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-7" />
+                  <div class="seat-number">7</div>
+                </div>
+              </td>
+            </tr>
+            <!-- Fila 2 -->
+            <tr>
+              <td class="celdita" id="8" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">8</div>
+                </div>
+              </td>
+              <td class="celdita" id="9" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">9</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="10" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">10</div>
+                </div>
+              </td>
+              <td class="celdita" id="11" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">11</div>
+                </div>
+              </td>
+              <td class="celdita" id="12" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">12</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="13" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">13</div>
+                </div>
+              </td>
+              <td class="celdita" id="14" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">14</div>
+                </div>
+              </td>
+            </tr>
+            <!-- Más filas según sea necesario -->
+            <!-- Fila 3 -->
+            <tr>
+              <td class="celdita" id="15" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">15</div>
+                </div>
+              </td>
+              <td class="celdita" id="16" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">16</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="17" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">17</div>
+                </div>
+              </td>
+              <td class="celdita" id="18" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">18</div>
+                </div>
+              </td>
+              <td class="celdita" id="19" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">19</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="20" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">20</div>
+                </div>
+              </td>
+              <td class="celdita" id="21" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">21</div>
+                </div>
+              </td>
+            </tr>
+                        <!-- Fila 4 -->
+            <tr>
+              <td class="celdita" id="22" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">22</div>
+                </div>
+              </td>
+              <td class="celdita" id="23" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">23</div>
+                </div>
+              </td>
+              <td class="spacer" width="24"></td>
+              <td class="celdita" id="10" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">24</div>
+                </div>
+              </td>
+              <td class="celdita" id="25" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">25</div>
+                </div>
+              </td>
+              <td class="celdita" id="26" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">26</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="27" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">27</div>
+                </div>
+              </td>
+              <td class="celdita" id="28" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">28</div>
+                </div>
+              </td>
+            </tr>
+            <!-- Fila 5 -->
+            <tr>
+              <td class="celdita" id="29" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">29</div>
+                </div>
+              </td>
+              <td class="celdita" id="30" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">30</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="31" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">31</div>
+                </div>
+              </td>
+              <td class="celdita" id="32" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">32</div>
+                </div>
+              </td>
+              <td class="celdita" id="33" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">33</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="34" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">34</div>
+                </div>
+              </td>
+              <td class="celdita" id="35" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">35</div>
+                </div>
+              </td>
+            </tr>
+                      <!-- Fila 2 -->
+            <tr>
+              <td class="celdita" id="36" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">36</div>
+                </div>
+              </td>
+              <td class="celdita" id="37" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">37</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="38" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">38</div>
+                </div>
+              </td>
+              <td class="celdita" id="39" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">39</div>
+                </div>
+              </td>
+              <td class="celdita" id="40" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">40</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="41" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">41</div>
+                </div>
+              </td>
+              <td class="celdita" id="42" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">42</div>
+                </div>
+              </td>
+            </tr>
+            <!-- Fila 2 -->
+            <tr>
+              <td class="celdita" id="43" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">43</div>
+                </div>
+              </td>
+              <td class="celdita" id="44" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">44</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="45" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">45</div>
+                </div>
+              </td>
+              <td class="celdita" id="46" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">46</div>
+                </div>
+              </td>
+              <td class="celdita" id="47" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">47</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="48" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">48</div>
+                </div>
+              </td>
+              <td class="celdita" id="49" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">49</div>
+                </div>
+              </td>
+            </tr>
+            <!-- Fila 2 -->
+            <tr>
+              <td class="celdita" id="50" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">50</div>
+                </div>
+              </td>
+              <td class="celdita" id="51" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">51</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="52" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">52</div>
+                </div>
+              </td>
+              <td class="celdita" id="53" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">53</div>
+                </div>
+              </td>
+              <td class="celdita" id="54" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">54</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="55" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">55</div>
+                </div>
+              </td>
+              <td class="celdita" id="56" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">57</div>
+                </div>
+              </td>
+            </tr>
+            <!-- Fila 2 -->
+            <tr>
+              <td class="celdita" id="58" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-8" />
+                  <div class="seat-number">58</div>
+                </div>
+              </td>
+              <td class="celdita" id="59" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-9" />
+                  <div class="seat-number">59</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="60" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-10" />
+                  <div class="seat-number">60</div>
+                </div>
+              </td>
+              <td class="celdita" id="61" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-11" />
+                  <div class="seat-number">61</div>
+                </div>
+              </td>
+              <td class="celdita" id="62" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-12" />
+                  <div class="seat-number">62</div>
+                </div>
+              </td>
+              <td class="spacer" width="20"></td>
+              <td class="celdita" id="63" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-13" />
+                  <div class="seat-number">63</div>
+                </div>
+              </td>
+              <td class="celdita" id="64" width="20">
+                <div class="seat-container">
+                  <img src="asiento.png" class="seat" id="seat-14" />
+                  <div class="seat-number">64</div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
